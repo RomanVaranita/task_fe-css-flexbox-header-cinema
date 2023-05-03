@@ -6,3 +6,21 @@ main {
   width: 400vh;
 }
 
+header {
+  background-image: url(./imagebanner.jpeg);
+  height: 150px;
+  background-size: contain;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.nav-line {
+  display: flex;
+  align-items: center;
+}
